@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.icon-session{
+    font-size: 15rem;
+    color: #57b9ee;
+}
+
+.container{
+    width: 30%;
+}
+
+.container nav ul{
+    padding: 0
+}
+
+.container nav ul li{
+    width: 14rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    border: 1px solid white;
+    padding: 0.2rem;
+}
+
+.container nav ul li a{
+    color: #bad6ffad;
+    font-size: 1.7rem;
+}
+
+.container nav ul li a:hover{
+    text-decoration: none;
+}
+
+.borde_estado{
+    border-top: 1px solid #f3f3f3;
+}
+
+.container nav ul li a:focus{
+    text-decoration: none;
+}
+
+.width20{
+
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.m-l-2{
+    margin-left: 0.2rem;
+}
+
+.forget{
+    background-color: #e8e8e8;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0.5rem 0rem 1.5rem 0rem;
+}
+
+.forget a{
+    font-size: 1.3rem;
+}
+
+.selected{
+    color: white !important;
+}
+
+.selectedWelcome{
+    background-color: #25447a !important;
+}
+
+.container_opcion{
+    display: inline-block;
+    padding: 0rem 1rem 1rem 1rem;
+    color: #bad6ffad;
+    cursor: pointer
+}
+
+.container_opcion a{
+    /* color: #bad6ffad !important; */
+    color: #bad6ffad;
+}
+
+.padding2{
+    padding: 2rem;
+}
+
+a{
+    cursor: pointer
+}
+
+h4.titleConsulta{
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.form-register .col-md-6{
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.font-15{
+    font-size: 15rem;
+}
+
+.right{
+    float: right
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #57b9ee !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    /* color: white; */
+    width: 100%;
+    overflow: hidden;
+    height: 64px;
+    position: relative;
+}
+
+.nav-li{
+    width: 100%;
+    overflow: hidden;
+    height: 64px;
+    position: relative;
+}
+
+.center{
+    text-align: center;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+.nav-li nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.nav-li nav ul {
+    list-style:none;
+}
+
+.nav-li nav > ul {
+    display:table;
+    width:100%;
+    background:#2c3037;
+    position:relative;
+    padding: 0px;
+}
+
+nav > ul li {
+    display: table-cell;
+    /* width: 28%; */
+    border: 2px solid white;
+    color: white !important;
+    /* padding: 1.2rem; */
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+/*Sub-menu*/
+.nav-li nav > ul > li:hover > ul {
+    display:block;
+    height:100%;
+}
+
+.nav-li nav > ul > li > ul {
+    display:block;
+    position:absolute;
+    background:#000;
+    left:0;
+    right:0;
+    overflow:hidden;
+    height:0%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.nav-li nav > ul li a {
+    color:#fff !important;;
+    display:block;
+    line-height:20px;
+    padding:20px;
+    position: relative;
+    text-align:center;
+    text-decoration:none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.nav-li nav > ul > li > ul > li a:hover {
+    background:#5da5a2;
+}
+
+.nav-li nav > ul > li > a span {
+    background:#174459;
+    display:block;
+    height:100%;
+    width:100%;
+    left:0;
+    position:absolute;
+    top:-55px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.nav-li nav > ul > li > a span .icon {
+    display:block;
+    line-height:60px;
+}
+
+.nav-li nav > ul > li > a:hover > span {
+    top:0;
+}
+
+/*Colores*/
+nav ul li a .primero {
+    background:#0e5061;
+    
+}
+
+nav ul li a .segundo {
+    background:#5da5a2;
+}
+
+nav ul li a .tercero {
+    background:#f25724;
+}
+
+nav ul li a .cuarto {
+    background:#174459;
+}
+
+nav ul li a .quinto {
+    background:#37a4d9;
+}
+
+
+
+/*  table  */
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+table > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+table td{
+    width: 50% !important;
+}
+
+.icon-welcome{
+    font-size: 20rem;
+}
+table > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
