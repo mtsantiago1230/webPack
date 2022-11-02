@@ -15,22 +15,6 @@ function login()
     const refUser = useRef(null);
     const refPass = useRef(null);
 
-    // const sendForm = async (url,data) => {
-    //     const resp = await fetch(url,{
-    //         method: "POST",
-    //         body: JSON.stringify(data),
-    //         headers: {
-    //             // "Content-Type" : "application/json",
-    //             "Content-Type" : "application/x-www-form-urlencoded",
-                
-    //         }
-    //     });
-
-    //     console.log("1",resp)
-    //     const json = await resp.json()
-    //     console.log("2",json)
-    // }
-
     const envioForm = () => {
         const data = {
             user: refUser.current.value,
